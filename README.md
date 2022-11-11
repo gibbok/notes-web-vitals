@@ -1,6 +1,5 @@
 # Notes on Web Vitals
 
-
 ## Web Vitals
 
 Web Vitals is an initiative by Google to provide unified guidance for quality signals that are essential to delivering a great user experience on the web.
@@ -33,13 +32,13 @@ Other useful metrics:
 Simple JS library to make API call and collect data:
 https://github.com/GoogleChrome/web-vitals
 
-We can access the data collected using using:
+We can access the data collected using:
 Search Console's Core Web Vitals report https://support.google.com/webmasters/answer/9205520
 
 ### PageSpeed Insights (PSI)
 
-Online toll used to create reports on the user experience of a page on both mobile and desktop devices. The tool provides suggestions.
-Needs to be hacked for site behind authentication.
+Online tool used to create reports on the user experience of a page on both mobile and desktop devices. The tool provides suggestions.
+It requires some work around to be used for site behind authentication.
 
 Used when:
 - Access performance at page level
@@ -58,27 +57,31 @@ Lighthouse can synthetically measure the Core Web Vitals metrics, Lab data which
 
 https://developer.mozilla.org/en-US/docs/Web/Performance/Rum-vs-Synthetic
 
+#### Lighthouse user flows.
 
-Lighthouse user flows.
 It is a tools which also allow developers to script interaction flows for performance testing beyond page startup.
 https://web.dev/lighthouse-user-flows/
 
-Lighthouse-CI
+#### Lighthouse-CI
+
 https://github.com/GoogleChrome/lighthouse-ci
+
 Tool that runs Lighthouse during project builds and deploys to assist with performance regression testing. It presents a Lighthouse report along with pull requests, and tracks performance metrics over time.
 
 Used when:
-- finding performance improvement opportunities during development in both local and staging environments.
-- where performance regression testing is needed to preserve good user experiences.
+- Finding performance improvement opportunities during development in both local and staging environments.
+- Where performance regression testing is needed to preserve good user experiences.
 
 Do not use when:
 - Not developers are involved
-- is not a substitute for field data
+- It is not a substitute for field data
 
 Notes:
+
 Lighthouse runs simulate a mid-tier mobile device on a throttled slow 4G connection. This may find issues that wouldn't ordinarily appear on high-speed devices or fast internet connections. These metrics are an indicator of where performance problems exist, and may translate into better performance overall in the field if the problems Lighthouse finds are addressed
 
 ### Performance APIs
+
 There are many monitoring services. If you do want to roll your own monitoring system, take a look at the performance APIs, mainly PerformanceNavigationTiming and PerformanceResourceTiming, but also PerformanceMark, PerformanceMeasure, and PerformancePaintTiming.
 
 ### Web Vitals Extension
@@ -95,7 +98,7 @@ The performance tab is a lab tool that profiles all page activity during startup
 
 Use it:
 - During development
-- Provide only lab data
+- It provides only lab data
 
 ### CrUX
 
@@ -105,14 +108,12 @@ CrUX data is collected from real browsers around the world, based on certain bro
 
 The data collected by CrUX is available publicly through a number of tools and is used by Google Search to inform the page experience ranking factor.
 
-Use when:
-
-- you gather your own field data
+Use it when:
+- You gather your own field data (comparisons
 - Though CrUX represents a subset of Chrome users, it's helpful to compare your website's field data to see how it aligns with its CrUX data
 
 Do not use:
-
-- Small websites
+- Small websites, low traffic website
 - Not ideal tool to be used during development
 
 ### Site Speed reports
@@ -124,6 +125,7 @@ https://support.google.com/analytics/answer/1205784?hl=en#zippy=
 ### Google Search Console Tools
 
 Formerly Google Webmasters, provide online tool to measure metrics such search traffic and performance inclucing Vitals.
+
 https://search.google.com/search-console/about
 
 Use for:
