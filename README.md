@@ -71,8 +71,6 @@ The data collected by CrUX is available publicly through a number of tools and i
 
 The Site Speed reports show how quickly users are able to see and interact with content, it is accesible using Google Analytics.
 
-
-
 https://support.google.com/analytics/answer/1205784?hl=en#zippy=
 
 ### Google Search Console Tools
@@ -83,6 +81,9 @@ https://search.google.com/search-console/about
 ## Docs:
 
 https://web.dev/vitals-tools/
+
 https://web.dev/vitals-measurement-getting-started/
+
 https://github.com/GoogleChromeLabs/web-vitals-report
+
 https://github.com/GoogleChrome/web-vitals-extension
