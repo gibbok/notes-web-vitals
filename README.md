@@ -63,9 +63,19 @@ A Chrome extension to measure metrics.
 
 The Chrome User Experience Report (also known as the Chrome UX Report, or CrUX for short) is a dataset that reflects how real-world Chrome users experience popular destinations on the web.
 
-CrUX data is collected from real browsers around the world, based on certain browser options which determine user eligibility. A set of dimensions and metrics are collected which allow site owners to determine how users experience their sites.
+CrUX data is collected from real browsers around the world, based on certain browser options which determine user eligibility ( a segment of real Google Chrome users from millions of websites.). A set of dimensions and metrics are collected which allow site owners to determine how users experience their sites.
 
 The data collected by CrUX is available publicly through a number of tools and is used by Google Search to inform the page experience ranking factor.
+
+Use when:
+
+- you gather your own field data
+- Though CrUX represents a subset of Chrome users, it's helpful to compare your website's field data to see how it aligns with its CrUX data
+
+Do not use:
+
+- Small websites
+- Not ideal tool to be used during development
 
 ### Site Speed reports
 
