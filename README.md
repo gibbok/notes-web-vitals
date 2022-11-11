@@ -22,8 +22,8 @@ Core Web Vitals are subset of Web Vitals that apply to all web pages, with the a
 
 Other useful metrics:
 
-- Time to First Byte (TTFB)
-- First Contentful Paint (FCP) 
+- Time to First Byte (TTFB).
+- First Contentful Paint (FCP).
 
 
 ## Tools
@@ -41,16 +41,18 @@ Online tool used to create reports on the user experience of a page on both mobi
 It requires some work around to be used for site behind authentication.
 
 Used when:
-- Access performance at page level
-- Can be used by non developers who do not use Lighthouse
+
+- Access performance at page level.
+- Can be used by non developers who do not use Lighthouse.
 
 Do not use:
-- If you are already using Lighthouse
+
+- If you are already using Lighthouse.
 
 ### Lighthouse 
 
 Lighthouse is an open-source (Lab tool), automated tool for improving the quality of web pages. 
-It can run on developer machine in Chome devoper tools or it is possible to automate running Lighthouse for every commit, viewing the changes, and preventing regressions
+It can run on developer machine in Chome devoper tools or it is possible to automate running Lighthouse for every commit, viewing the changes, and preventing regressions.
 
 Lighthouse can synthetically measure the Core Web Vitals metrics, Lab data which is collected from a controlled environment, rather than actual users. Unlike RUM data, lab data can be collected from pre-production environments and therefore incorporated into developer workflows and continuous integration processes. Examples of tools that collect synthetic data are Lighthouse and WebPageTest.
 
@@ -69,12 +71,14 @@ https://github.com/GoogleChrome/lighthouse-ci
 Tool that runs Lighthouse during project builds and deploys to assist with performance regression testing. It presents a Lighthouse report along with pull requests, and tracks performance metrics over time.
 
 Used when:
+
 - Finding performance improvement opportunities during development in both local and staging environments.
 - Where performance regression testing is needed to preserve good user experiences.
 
 Do not use when:
-- Not developers are involved
-- It is not a substitute for field data
+
+- Not developers are involved.
+- It is not a substitute for field data.
 
 Notes:
 
@@ -97,8 +101,9 @@ Basic tools should be supplemented with Lighthouse.
 The performance tab is a lab tool that profiles all page activity during startup or a recorded time period. It offers deep insight into everything it observes across dimensions such as network, rendering, painting and scripting activity, as well as a page's Core Web Vitals.
 
 Use it:
-- During development
-- It provides only lab data
+
+- During development.
+- It provides only lab data.
 
 ### CrUX
 
@@ -109,12 +114,14 @@ CrUX data is collected from real browsers around the world, based on certain bro
 The data collected by CrUX is available publicly through a number of tools and is used by Google Search to inform the page experience ranking factor.
 
 Use it when:
-- You gather your own field data (comparisons
-- Though CrUX represents a subset of Chrome users, it's helpful to compare your website's field data to see how it aligns with its CrUX data
+
+- You gather your own field data (comparisons.
+- Though CrUX represents a subset of Chrome users, it's helpful to compare your website's field data to see how it aligns with its CrUX data.
 
 Do not use:
-- Small websites, low traffic website
-- Not ideal tool to be used during development
+
+- Small websites, low traffic website.
+- Not ideal tool to be used during development.
 
 ### Site Speed reports
 
@@ -128,14 +135,16 @@ Formerly Google Webmasters, provide online tool to measure metrics such search t
 
 https://search.google.com/search-console/about
 
-Use for:
-- Developer and no developers
-- Access group of similar pages
-- Based on CrUX
+Use it for:
+
+- Developer and no developers.
+- Access group of similar pages.
+- Based on CrUX.
 
 ### Google Analytics
 
 For collecting own field data, there may be an opportunity for you to use the web-vitals library to send Web Vitals collected in the field to Google Analytics and use the web-vitals-report tool. The primary advantage of using web-vitals-report is that it simplifies analysis and visualization of field data by using an existing and widely-used analytics product.
+
 
 ### Key Terms
 
