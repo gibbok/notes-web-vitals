@@ -8,9 +8,9 @@ Web Vitals is an initiative by Google to provide unified guidance for quality si
 
 Core Web Vitals are subset of Web Vitals that apply to all web pages, with the aim to measure:
 
-- loading
-- interactivity
-- visual stability
+- Loading.
+- Interactivity.
+- Visual stability.
 
 ## Important metrics
 
