@@ -78,6 +78,16 @@ https://support.google.com/analytics/answer/1205784?hl=en#zippy=
 Formerly Google Webmasters, provide online tool to measure metrics.
 https://search.google.com/search-console/about
 
+### Key Terms
+
+#### Lab data
+
+Describes how hypothetical users may experience your website.
+
+#### Real User Monitoring (RUM)
+
+Field data describes how real users actually experienced your website.
+
 ## Docs:
 
 https://web.dev/vitals-tools/
