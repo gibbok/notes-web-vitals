@@ -50,7 +50,7 @@ Do not use:
 
 ### Lighthouse 
 
-Lighthouse is an open-source, automated tool for improving the quality of web pages. 
+Lighthouse is an open-source (Lab tool), automated tool for improving the quality of web pages. 
 It can run on developer machine in Chome devoper tools or it is possible to automate running Lighthouse for every commit, viewing the changes, and preventing regressions
 https://github.com/GoogleChrome/lighthouse-ci
 
@@ -58,13 +58,41 @@ Lighthouse can synthetically measure the Core Web Vitals metrics, Lab data which
 
 https://developer.mozilla.org/en-US/docs/Web/Performance/Rum-vs-Synthetic
 
+
+Lighthouse user flows.
+It is a tools which also allow developers to script interaction flows for performance testing beyond page startup.
+https://web.dev/lighthouse-user-flows/
+
+Lighthouse-CI
+https://github.com/GoogleChrome/lighthouse-ci
+Tool that runs Lighthouse during project builds and deploys to assist with performance regression testing. It presents a Lighthouse report along with pull requests, and tracks performance metrics over time.
+
+Used when:
+- finding performance improvement opportunities during development in both local and staging environments.
+- where performance regression testing is needed to preserve good user experiences.
+
+Do not use when:
+- Not developers are involved
+- is not a substitute for field data
+
 ### Performance APIs
 There are many monitoring services. If you do want to roll your own monitoring system, take a look at the performance APIs, mainly PerformanceNavigationTiming and PerformanceResourceTiming, but also PerformanceMark, PerformanceMeasure, and PerformancePaintTiming.
 
 ### Web Vitals Extension
+
 https://github.com/GoogleChrome/web-vitals-extension
 
-A Chrome extension to measure metrics.
+A Chrome extension to measure metrics can be used by anyone in any role to assess a page's Core Web Vitals at all points of the page lifecycle.
+
+Basic tools should be supplemented with Lighthouse.
+
+### The performance tab in Chrome's DevTools 
+
+The performance tab is a lab tool that profiles all page activity during startup or a recorded time period. It offers deep insight into everything it observes across dimensions such as network, rendering, painting and scripting activity, as well as a page's Core Web Vitals.
+
+Use it:
+- During development
+- Provide only lab data
 
 ### CrUX
 
