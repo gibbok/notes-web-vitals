@@ -41,6 +41,13 @@ Search Console's Core Web Vitals report https://support.google.com/webmasters/an
 Online toll used to create reports on the user experience of a page on both mobile and desktop devices. The tool provides suggestions.
 Needs to be hacked for site behind authentication.
 
+Used when:
+- Access performance at page level
+- Can be used by non developers who do not use Lighthouse
+
+Do not use:
+- If you are already using Lighthouse
+
 ### Lighthouse 
 
 Lighthouse is an open-source, automated tool for improving the quality of web pages. 
