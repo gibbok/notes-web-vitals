@@ -51,7 +51,6 @@ Do not use:
 
 Lighthouse is an open-source (Lab tool), automated tool for improving the quality of web pages. 
 It can run on developer machine in Chome devoper tools or it is possible to automate running Lighthouse for every commit, viewing the changes, and preventing regressions
-https://github.com/GoogleChrome/lighthouse-ci
 
 Lighthouse can synthetically measure the Core Web Vitals metrics, Lab data which is collected from a controlled environment, rather than actual users. Unlike RUM data, lab data can be collected from pre-production environments and therefore incorporated into developer workflows and continuous integration processes. Examples of tools that collect synthetic data are Lighthouse and WebPageTest.
 
