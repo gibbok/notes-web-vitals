@@ -159,6 +159,12 @@ For improving Core Web Vitals and other performance metrics, one approach could 
 
 ![Process](https://web-dev.imgix.net/image/jL3OLOhcWUQDnR4XjewLBx4e3PC3/9k3o679FUq63WT1kbxHe.png?auto=format&w=1252)
 
+### Others tools
+
+https://sentry.io/for/web-vitals/
+
+https://raygun.com/core-web-vitals
+
 ## Docs:
 
 https://web.dev/vitals-tools/
