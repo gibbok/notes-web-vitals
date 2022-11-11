@@ -152,6 +152,8 @@ For improving Core Web Vitals and other performance metrics, one approach could 
 - Debug and optimize.
 - Monitor with continuous integration tools to catch and prevent regressions.
 
+![Process](https://web-dev.imgix.net/image/jL3OLOhcWUQDnR4XjewLBx4e3PC3/9k3o679FUq63WT1kbxHe.png?auto=format&w=1252)
+
 ## Docs:
 
 https://web.dev/vitals-tools/
