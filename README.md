@@ -54,6 +54,19 @@ https://developer.mozilla.org/en-US/docs/Web/Performance/Rum-vs-Synthetic
 ### Performance APIs
 There are many monitoring services. If you do want to roll your own monitoring system, take a look at the performance APIs, mainly PerformanceNavigationTiming and PerformanceResourceTiming, but also PerformanceMark, PerformanceMeasure, and PerformancePaintTiming.
 
+### Web Vitals Extension
+https://github.com/GoogleChrome/web-vitals-extension
+
+A Chrome extension to measure metrics.
+
+### CrUX
+
+The Chrome User Experience Report (also known as the Chrome UX Report, or CrUX for short) is a dataset that reflects how real-world Chrome users experience popular destinations on the web.
+
+CrUX data is collected from real browsers around the world, based on certain browser options which determine user eligibility. A set of dimensions and metrics are collected which allow site owners to determine how users experience their sites.
+
+The data collected by CrUX is available publicly through a number of tools and is used by Google Search to inform the page experience ranking factor.
+
 ## Docs:
 
 https://web.dev/vitals-tools/
