@@ -88,6 +88,8 @@ Describes how hypothetical users may experience your website.
 
 Field data describes how real users actually experienced your website.
 
+Notes: The best dataset for assessing website performance in the field is the one you build, this depends on the size of your organization, and whether you want to pay for a third-party solution or create your own. Paid solutions will almost certainly measure Core Web Vitals (and other performance metrics). In large organizations with significant resources, this may be the preferred method. Google's web-vitals library will help you gather all Web Vitals. However, you'll be responsible for how that data is reported, stored, and analyzed.
+
 ## Docs:
 
 https://web.dev/vitals-tools/
