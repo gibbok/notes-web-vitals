@@ -26,15 +26,26 @@ Other useful metrics:
 - Time to First Byte (TTFB)
 - First Contentful Paint (FCP) 
 
+
+## Tools
+
+### Web-vitals API
+Simple JS library to make API call and collect data:
 https://github.com/GoogleChrome/web-vitals
-Simple JS library make a function call:
 
-We can access this data using:
+We can access the data collected using using:
 Search Console's Core Web Vitals report https://support.google.com/webmasters/answer/9205520
-PageSpeed Insights, 
 
+### PageSpeed Insights (PSI)
 
+Online toll used to create reports on the user experience of a page on both mobile and desktop devices. The tool provides suggestions.
+Needs to be hacked for site behind authentication.
 
+### Lighthouse 
+
+Lighthouse is an open-source, automated tool for improving the quality of web pages. 
+It can run on developer machine in Chome devoper tools or it is possible to automate running Lighthouse for every commit, viewing the changes, and preventing regressions
+https://github.com/GoogleChrome/lighthouse-ci
 
 
 ## Docs:
