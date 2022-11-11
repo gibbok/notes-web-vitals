@@ -75,6 +75,9 @@ Do not use when:
 - Not developers are involved
 - is not a substitute for field data
 
+Notes:
+Lighthouse runs simulate a mid-tier mobile device on a throttled slow 4G connection. This may find issues that wouldn't ordinarily appear on high-speed devices or fast internet connections. These metrics are an indicator of where performance problems exist, and may translate into better performance overall in the field if the problems Lighthouse finds are addressed
+
 ### Performance APIs
 There are many monitoring services. If you do want to roll your own monitoring system, take a look at the performance APIs, mainly PerformanceNavigationTiming and PerformanceResourceTiming, but also PerformanceMark, PerformanceMeasure, and PerformancePaintTiming.
 
