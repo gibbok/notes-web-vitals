@@ -49,6 +49,7 @@ https://github.com/GoogleChrome/lighthouse-ci
 
 Lighthouse can synthetically measure the Core Web Vitals metrics, Lab data which is collected from a controlled environment, rather than actual users. Unlike RUM data, lab data can be collected from pre-production environments and therefore incorporated into developer workflows and continuous integration processes. Examples of tools that collect synthetic data are Lighthouse and WebPageTest.
 
+https://developer.mozilla.org/en-US/docs/Web/Performance/Rum-vs-Synthetic
 
 ## Docs:
 
