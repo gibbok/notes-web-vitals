@@ -21,12 +21,10 @@ Core Web Vitals are subset of Web Vitals that apply to all web pages, with the a
 | FID | First Input Delay        | Interactivity       | <= 100 milliseconds |
 | CLS | Cumulative Layout Shift  | Visual stability    | 0.1                 |  
 
+Other useful metrics:
 
-https://web.dev/vitals-tools/
-https://web.dev/vitals-measurement-getting-started/
-https://github.com/GoogleChromeLabs/web-vitals-report
-https://github.com/GoogleChrome/web-vitals-extension
-
+- Time to First Byte (TTFB)
+- First Contentful Paint (FCP) 
 
 https://github.com/GoogleChrome/web-vitals
 Simple JS library make a function call:
@@ -36,6 +34,12 @@ Search Console's Core Web Vitals report https://support.google.com/webmasters/an
 PageSpeed Insights, 
 
 
-Other possible metri
 
-Time to First Byte (TTFB) and First Contentful Paint (FCP) 
+
+
+## Docs:
+
+https://web.dev/vitals-tools/
+https://web.dev/vitals-measurement-getting-started/
+https://github.com/GoogleChromeLabs/web-vitals-report
+https://github.com/GoogleChrome/web-vitals-extension
