@@ -78,6 +78,10 @@ https://support.google.com/analytics/answer/1205784?hl=en#zippy=
 Formerly Google Webmasters, provide online tool to measure metrics.
 https://search.google.com/search-console/about
 
+### Google Analytics
+
+For collecting own field data, there may be an opportunity for you to use the web-vitals library to send Web Vitals collected in the field to Google Analytics and use the web-vitals-report tool. The primary advantage of using web-vitals-report is that it simplifies analysis and visualization of field data by using an existing and widely-used analytics product.
+
 ### Key Terms
 
 #### Lab data
