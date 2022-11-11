@@ -51,6 +51,9 @@ Lighthouse can synthetically measure the Core Web Vitals metrics, Lab data which
 
 https://developer.mozilla.org/en-US/docs/Web/Performance/Rum-vs-Synthetic
 
+### Performance APIs
+There are many monitoring services. If you do want to roll your own monitoring system, take a look at the performance APIs, mainly PerformanceNavigationTiming and PerformanceResourceTiming, but also PerformanceMark, PerformanceMeasure, and PerformancePaintTiming.
+
 ## Docs:
 
 https://web.dev/vitals-tools/
