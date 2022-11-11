@@ -92,8 +92,13 @@ https://support.google.com/analytics/answer/1205784?hl=en#zippy=
 
 ### Google Search Console Tools
 
-Formerly Google Webmasters, provide online tool to measure metrics.
+Formerly Google Webmasters, provide online tool to measure metrics such search traffic and performance inclucing Vitals.
 https://search.google.com/search-console/about
+
+Use for:
+- Developer and no developers
+- Access group of similar pages
+- Based on CrUX
 
 ### Google Analytics
 
