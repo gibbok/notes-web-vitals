@@ -183,3 +183,5 @@ https://web.dev/vitals-measurement-getting-started/
 https://github.com/GoogleChromeLabs/web-vitals-report
 
 https://github.com/GoogleChrome/web-vitals-extension
+
+https://nextjs.org/docs/advanced-features/measuring-performance
